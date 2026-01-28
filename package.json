@@ -1,0 +1,44 @@
+{
+  "name": "bot0",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "bot"
+  ],
+  "homepage": "https://github.com/alex-1900/bot0#readme",
+  "bugs": {
+    "url": "https://github.com/alex-1900/bot0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-1900/bot0.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ini": "^4.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "chalk": "^5.6.2",
+    "express": "^5.2.1",
+    "ini": "^6.0.0",
+    "json5": "^2.2.3",
+    "moment": "^2.30.1",
+    "sqlite-vec": "^0.1.7-alpha.2",
+    "table": "^6.9.0",
+    "tslog": "^4.10.2",
+    "undici": "^7.19.2",
+    "ws": "^8.19.0"
+  }
+}
