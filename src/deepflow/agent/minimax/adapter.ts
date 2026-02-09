@@ -1,0 +1,1 @@
+// TODO: 实现 minimax 适配器，适配 AgentAdapter 接口
